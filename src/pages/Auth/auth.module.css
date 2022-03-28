@@ -1,0 +1,17 @@
+.auth {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 20px;
+}
+.auth input, .auth button {
+    font-size: 20px;
+    padding: 10px;
+}
+.auth input {
+    border: 1px solid gray;
+}
+.auth button {
+    color: white;
+    background: dodgerblue;
+    cursor: pointer;
+}

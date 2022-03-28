@@ -1,0 +1,260 @@
+/*DISPLAY*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap');
+.d-b {
+    display: block;
+}
+
+.d-f {
+    display: flex;
+}
+
+.d-n {
+    display: none;
+}
+/*POSITIONS*/
+.p-abs {
+    position: absolute;
+}
+
+.p-rel {
+    position: relative;
+}
+
+.p-fix {
+    position: fixed;
+}
+.p-stick {
+    position: sticky;
+}
+/*JUSTIFY CONTENT*/
+.jc-center {
+    justify-content: center;
+}
+
+.js-start {
+    justify-content: flex-start;
+}
+
+.js-end {
+    justify-content: flex-end;
+}
+
+.js-between {
+    justify-content: space-between;
+}
+
+.js-around {
+    justify-content: space-around;
+}
+
+.js-evenly {
+    justify-content: space-evenly;
+}
+
+/*ALING*/
+.al-center {
+    align-items: center;
+}
+
+.al-start {
+    align-items: flex-start;
+}
+
+.al-end {
+    align-items: flex-end;
+}
+
+/*FLEX-DIRECTIONS*/
+.fd-row {
+    flex-direction: row;
+}
+
+.fd-r-row {
+    flex-direction: row-reverse;
+}
+
+.fd-column {
+    flex-direction: column;
+}
+
+.fd-r-row {
+    flex-direction: column-reverse;
+}
+
+/*MARGINS*/
+.mg-auto {
+    margin: auto;
+}
+
+.ml-auto {
+    margin: 0 auto;
+}
+
+/*MIXES*/
+.f-center-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.f-center-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.flex-col-betw {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.flex-row-betw {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+/*WIDTH*/
+.w-100p {
+    width: 100%;
+}
+.w-100v {
+    width: 100vw;
+}
+/*HEIGTH*/
+.h-100p {
+    height: 100%;
+}
+.h-100v {
+    height: 100vh;
+}
+/*TEXT-ALIGN*/
+.txt-right {
+    text-align: right;
+}
+.txt-center {
+    text-align: center;
+}
+/*GAPS*/
+.gap-5 {
+    gap: 5px;
+}
+.gap-10 {
+    gap:10px;
+}
+.gap-15 {
+    gap: 15px;
+}
+.gap-20 {
+    gap: 20px;
+}
+.gap-30 {
+    gap: 30px;
+}
+/*OVERFLOW*/
+.of-hide {
+    overflow: hidden;
+}
+.of-scroll {
+    overflow: scroll;
+}
+.of-y-hide {
+    overflow-y: hidden;
+}
+.of-y-scroll {
+    overflow-y: scroll;
+}
+.of-x-hide {
+    overflow-x: hidden;
+}
+.of-x-scroll {
+    overflow-x: scroll;
+}
+/*CURSORS*/
+.cur-pointer {
+    cursor: pointer;
+}
+/*LIST STYLES*/
+.marked {
+    list-style: disc;
+}
+/*COLOR*/
+.c-white {
+    color: white;
+}
+.c-black {
+    color: black;
+}
+/*FONT-WEIGHT*/
+.fw-1 {
+    font-weight: 100;
+}
+.fw-2 {
+    font-weight: 200;
+}
+.fw-3 {
+    font-weight: 300;
+}
+.fw-4 {
+    font-weight: 400;
+}
+.fw-5 {
+    font-weight: 500;
+}
+.fw-6 {
+    font-weight: 600;
+}
+.fw-7 {
+    font-weight: 700;
+}
+.fw-8 {
+    font-weight: 800;
+}
+.fw-9 {
+    font-weight: 900;
+}
+/*BACKGROUND*/
+.bg-full {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-white {
+    background: white;
+}
+/*BASE SETTINGS*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    left: 0;
+    top: 0;
+}
+
+a {
+    text-transform: unset;
+    text-decoration: unset;
+    width: fit-content;
+    color: unset;
+}
+
+li {
+    list-style: none;
+}
+
+input, button, select, textarea {
+    border: unset;
+    outline: none;
+}
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {-webkit-appearance: none;}

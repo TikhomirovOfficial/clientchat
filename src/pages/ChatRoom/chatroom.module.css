@@ -1,0 +1,86 @@
+.chatWrapper {
+    max-width: 900px;
+    background: white;
+    margin: 0 auto;
+    height: 100vh;
+}
+.chatHeader {
+    background: #6f9bfd;
+    color: white;
+    padding: 5px 0;
+    font-size: 25px;
+}
+.chatBlock {
+    flex: 0.94;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    overflow-y: auto;
+    margin-top: 20px;
+    position: relative;
+    padding: 0 30px;
+}
+.joinedAlert {
+    margin: 0 auto;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+}
+.joinedAlertBlock {
+    padding: 5px 10px;
+    text-align: center;
+    background: #e1e9fd;
+    font-size: 16px;
+    color: black;
+    visibility: hidden;
+    transition: 0.7s opacity;
+    opacity: 0;
+}
+.isJoined {
+    visibility: visible;
+    opacity: 1;
+}
+.chatBlock::-webkit-scrollbar {
+    background: inherit;
+    width: 5px;
+}
+.chatBlock::-webkit-scrollbar-thumb {
+    background: rgba(90, 90, 90, 0.27);
+    border-radius: 20px;
+}
+.chatForm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0.06;
+    padding: 0 60px;
+    background: #faf5f1;
+}
+.chatForm > button, .chatForm > input {
+    font-size: 20px;
+}
+.chatForm > input {
+    flex: 0.95;
+    margin-top: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid gray;
+    background: inherit;
+}
+@media (max-width: 532px) {
+    .chatForm {
+        padding: 0 15px;
+        background: #faf5f1;
+    }
+    .chatForm button {
+        font-size: 15px;
+        padding: 5px;
+    }
+    .chatForm input {
+        font-size: 15px;
+    }
+}
+.chatForm > button {
+    padding: 10px 20px;
+    color: white;
+    background: #1e71ff;
+}
